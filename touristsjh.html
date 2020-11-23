@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joona Haataja">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/haataja.css">
+    <title>My bootstrap project - JH</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <header class="row bg-light" >
+           <div class="col-12">
+            <h1 class="ml-3">My bootstrap project</h1>
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#valikko" aria-controls="valikko" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="valikko">
+                      <ul class="navbar-nav">
+                        <li class="nav-item ">
+                          <a class="nav-link p-3 mr-4" href="index.html">My city</a>
+                        </li>
+                        <li class="nav-item active">
+                          <a class="nav-link p-3 mr-4 valittu disabled" href="">Tourists<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link p-3 mr-4" href="imagesjh.html">Images</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 mr-4" href="parallaxjh.html">Parallax</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link p-3 mr-4" href="bmijh.html">BMI</a>
+                          </li>
+                       
+                      </ul>
+            </nav>
+            </div>
+        </header>
+        <section class="container-fluid">
+         <div class="row">
+           <div class="col-12">
+          <h2>Tourists</h2>
+           </div>
+        </div>
+        <div class="row">
+          <div class="card-group text-center">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="card tausta mb-5">
+              <div class="card-body">
+                <h3 class="card-title">Shops</h3>
+                <span class="badge badge-info">Info</span>
+                <p class="card-text">There are some nice shops all around Oulu where you can find a large variety of different items</p>
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item tausta2">Lidl</li>
+                <li class="list-group-item tausta2">K-Citymarket</li>
+                <li class="list-group-item tausta2">Prisma</li>
+              </ul>
+              <img src="img/supermarket-949913_1920.jpg" class="card-img-top kuvat" alt="...">
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="card tausta text-center mb-5">
+              <div class="card-body">
+                <h3 class="card-title">Restaurants</h3>
+                <span class="badge badge-info">Info</span>
+                <p class="card-text">Oulu has some of the finest restaurants in the whole world and you can find all of them in the town square.</p>
+                
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item tausta2">Hesburger</li>
+                <li class="list-group-item tausta2">McDonalds</li>
+                <li class="list-group-item tausta2">Burger King</li>
+              </ul>
+              
+              <img src="img/kitchen-731351_1920.jpg" class="card-img-top kuvat" alt="...">
+            </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="card tausta text-center mb-5">
+              <div class="card-body">
+                <h3 class="card-title">Market Square</h3>
+                <span class="badge badge-info">Info</span>
+                <p class="card-text">The Oulu Market Square is the main market square of the city of Oulu, Finland.</p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+                  Read more
+                </button>
+                <div class="collapse" id="collapseExample">
+                <p class="card-text">
+                  <span class="badge badge-info"></span>
+                  The market square is located in the city centre, in the Pokkinen district, on the waterfront of the 
+                  Oulujoki river.<br><br> Source: 
+                  <a class="wikipedia" href="https://en.wikipedia.org/wiki/Market_Square,_Oulu" target="_blank">Wikipedia</a>
+                  
+                </p>
+              </div>
+              </div>
+          
+              <img src="img/oulu-171445_1920.jpg" class="card-img-top kuvat" alt="...">
+            </div>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-6 col-12">
+            <div class="card tausta text-center mb-5">
+              <div class="card-body">
+                <h3 class="card-title">Qstock</h3>
+                <span class="badge badge-info">Info</span>
+                <p class="card-text">Qstock is an annual two-day rock festival held at the end of July in Oulu, Finland.</p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+                  Read more
+                </button>
+                <div class="collapse" id="collapseExample2">
+                <p class="card-text">
+                  <span class="badge badge-info"></span>
+                  The festival lineup includes some of the biggest names in both domestic and international music scene, regardless of the genre.<br> Source: 
+                  <a class="wikipedia" href="https://en.wikipedia.org/wiki/Qstock" target="_blank">Wikipedia</a>
+                </p>
+              </div>
+              </div>
+          
+              <img src="img/audience-1850119_1920.jpg" class="card-img-top kuvat" alt="...">
+            </div>
+          </div>
+        </div>
+        </div>
+        </section>
+
+        <footer class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center col-sm-6 text-sm-left">
+             <p>Joona Haataja <br> 2020</p>
+            </div>
+           <div class="col-12 text-center col-sm-6 text-sm-right">
+             <p>Bootstrap and jQuery</p>
+           </div>
+          </div>
+
+        </footer>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="js/koodit.js"></script>
+</body>
+</html>

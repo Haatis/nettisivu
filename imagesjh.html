@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Joona Haataja">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/lightbox.css">
+    <link rel="stylesheet" href="css/haataja.css">
+    <title>My bootstrap project - JH</title>
+</head>
+<body>
+    <main class="container-fluid">
+        <header class="row bg-light" >
+           <div class="col-12">
+            <h1 class="ml-3">My bootstrap project</h1>
+                <nav class="navbar navbar-expand-sm navbar-light bg-light">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#valikko" aria-controls="valikko" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="valikko">
+                      <ul class="navbar-nav">
+                        <li class="nav-item active">
+                          <a class="nav-link p-3 mr-4" href="index.html">My city</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link p-3 mr-4" href="touristsjh.html">Tourists</a>
+                        </li>
+                        <li class="nav-item ">
+                          <a class="nav-link p-3 mr-4 valittu disabled" href="">Images<span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-3 mr-4" href="parallaxjh.html">Parallax</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link p-3 mr-4" href="bmijh.html">BMI</a>
+                          </li>
+                       
+                      </ul>
+            </nav>
+            </div>
+        </header>
+        <section class="container-fluid">
+          <div class="row">
+          <h3 class="col-12">Image gallery</h3>
+          </div>
+         <div class="row">
+              <figure class="col-md-3 col-sm-6 col-12">
+                <a href="img/hima.jpg" data-lightbox="roadtrip" data-title="Kämppä">
+                <img src="img/hima.jpg" alt="Kuva 1" class="laitti"/>
+              </a>
+              <figcaption>Kämppä</figcaption>
+              </figure>
+              <figure class="col-md-3 col-sm-6 col-12">
+                <a href="img/Punainen salama.jpg" data-lightbox="roadtrip" data-title="Auto">
+                <img src="img/Punainen salama.jpg" alt="Kuva 2" class="laitti"/>
+              </a>
+              <figcaption>Auto</figcaption>
+              </figure>
+              <figure class="col-md-3 col-sm-6 col-12">
+                <a href="img/kuva.jpg" data-lightbox="roadtrip" data-title="Joona Haataja">
+                <img src="img/kuva.jpg" alt="Kuva 3" class="laitti"/>
+              </a>
+              <figcaption>Joona Haataja</figcaption>
+              </figure>
+              <figure class="col-md-3 col-sm-6 col-12">
+                <a href="img/taisteluasema.jpg" data-lightbox="roadtrip" data-title="Tietokone setup">
+                <img src="img/taisteluasema.jpg" alt="Kuva 4" class="laitti"/>
+              </a>
+              <figcaption>Tietokone setup</figcaption>
+              </figure>
+            </div>
+           
+        </section>
+
+        <footer class="container-fluid">
+          <div class="row">
+            <div class="col-12 text-center col-sm-6 text-sm-left">
+             <p>Joona Haataja <br> 2020</p>
+            </div>
+           <div class="col-12 text-center col-sm-6 text-sm-right">
+             <p>Bootstrap and jQuery</p>
+           </div>
+          </div>
+
+        </footer>
+        
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    <script src="js/haataja.js"></script>
+    <script src="js/lightbox.js"></script>
+</body>
+</html>
